@@ -8,24 +8,22 @@
 
 
 .description{
-background-color: hsla(46, 32%, 92%, 0.951);
 width:100%;
 display: grid;
 grid-template-columns: 70rem 1fr;
-height:80vh;
-padding: 6rem;
+padding: 4rem 2rem 6rem 2rem;
 overflow: auto;
 
 grid-template-areas: 'A B';
-gap: 6.7rem;
+gap: 3.0rem;
 
   .text{
     text-align: left;
     grid-area: 'A';
     align-self: center;
     .title {
-      font-size: 3.5rem;
-      line-height: 5.2rem;
+      font-size: 3rem;
+      line-height: 3rem;
       color: black;
       text-transform: uppercase;
       padding-bottom: 2rem;
@@ -33,17 +31,28 @@ gap: 6.7rem;
     }
     .about{
 
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       text-align: left;
 
     }
 
   }
   .image1{
-    width: 45rem;
+    width: 100%;
     border-radius: 2rem;
     grid-area: B;
   }
 
+}
+
+@media(max-width:600px){
+  .description{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      'A'
+      'B';
+
+    }
 }
 

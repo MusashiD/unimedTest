@@ -7,11 +7,16 @@
   height: 100vh;
   z-index: -1;
   overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
 }
 
 h1 {
   color:#00985e;
-  margin-left: 33%;
+  width: 100%;
+  text-align: center;
   font-size: 3.5rem;
 }
 
@@ -20,16 +25,17 @@ h1 {
   color: white;
   background-color: #e3ffd1d8;
   width: 40rem;
-  margin-left: 33%;
   margin-top: 8rem;
-  height: 80vh;
-  border-radius: 1.2rem;
+   border-radius: 1.2rem;
+   padding: 2rem 3rem;
 
 
   .form{
-     height: 100%;
-     padding:4rem 4rem 1rem;
-    color: #00985e;
+      color: #00985e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     .erro{
       color: red;
       font-size:1.8rem;
@@ -42,7 +48,7 @@ h1 {
       color: white;
       background-color: #00985e;
       height: 4.5rem;
-      margin-bottom: 5rem;
+      margin-bottom: 1.5rem;
     }
     .input{
       padding-top:2.5rem;
@@ -60,7 +66,7 @@ h1 {
     .link {
       margin-top: 5rem;
       font-size: 1.4rem;
-      color: rgb(245, 47, 47);
+      color: #00985e;
       text-decoration: none;
     }
     .link:hover{
@@ -73,4 +79,12 @@ h1 {
       text-decoration: none;
     }
   }
+}
+
+@media(max-width:600px){
+  .login-container{
+
+     padding: 2rem 1rem;
+  }
+
 }

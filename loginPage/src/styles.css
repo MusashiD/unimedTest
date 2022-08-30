@@ -9,5 +9,7 @@
   box-sizing: border-box;
 }
 
-html, body { height: 100%; }
+html, body {
+  background-color: hsla(46, 32%, 92%, 0.951);
+  height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

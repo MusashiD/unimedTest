@@ -1,3 +1,9 @@
 img{
   width: 45rem;
 }
+
+@media(max-width:600px){
+  img{
+    width:100%;
+  }
+}
