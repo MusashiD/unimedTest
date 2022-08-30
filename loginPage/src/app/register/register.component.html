@@ -1,0 +1,26 @@
+<div class="body">
+  <div class="login-container">
+     <form (ngSubmit)="UserRegister()" form="col-5" class="form">
+      <h1 >Registro</h1>
+      <div class="input">
+        <label for="exampleFormControlInput1" class="form-label">Endereço de email:</label>
+        <input type="email" [(ngModel)]="user.email" class="form-control" id="email" name="email"
+        placeholder="Email@email.com">
+      </div>
+      <div class="input">
+        <label for="exampleFormControlInput1" class="form-label">Usuario:</label>
+        <input type="username" [(ngModel)]="user.username" class="form-control" id="username" name="username"
+        placeholder="UserName">
+      </div>
+      <div class="input">
+        <label for="exampleFormControlInput1" class="form-label">senha:</label>
+        <input type="password" [(ngModel)]="user.password" class="form-control" id="password" name="password"
+        placeholder="Senha">
+      </div>
+      <div class="erro">{{errorMessage}}</div>
+      <button type="submit" class="btn ">Registrar</button>
+      <a href="/" class="link">Já é cadastrado? Clique aqui para fazer login!</a>
+
+    </form>
+
+  </div><br>

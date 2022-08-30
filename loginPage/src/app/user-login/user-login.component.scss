@@ -1,0 +1,76 @@
+.body{
+   background-image: url(../../assets/images/medica6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: auto;
+}
+
+h1 {
+  color:#00985e;
+  margin-left: 33%;
+  font-size: 3.5rem;
+}
+
+.login-container{
+
+  color: white;
+  background-color: #e3ffd1d8;
+  width: 40rem;
+  margin-left: 33%;
+  margin-top: 8rem;
+  height: 80vh;
+  border-radius: 1.2rem;
+
+
+  .form{
+     height: 100%;
+     padding:4rem 4rem 1rem;
+    color: #00985e;
+    .erro{
+      color: red;
+      font-size:1.8rem;
+    }
+    .btn{
+      margin-top: 5rem;
+       font-size: 2.3rem;
+      width: 33rem;
+      border-radius: 1rem;
+      color: white;
+      background-color: #00985e;
+      height: 4.5rem;
+      margin-bottom: 5rem;
+    }
+    .input{
+      padding-top:2.5rem;
+      .form-label{
+        font-size: 2rem;
+        height: 2rem;
+        margin-bottom: 2rem;
+      }
+      .form-control{
+        height: 4rem;
+        width: 33rem;
+        font-size:2rem;
+      }
+    }
+    .link {
+      margin-top: 5rem;
+      font-size: 1.4rem;
+      color: rgb(245, 47, 47);
+      text-decoration: none;
+    }
+    .link:hover{
+
+      margin-top: 5rem;
+      font-size: 1.4rem;
+
+      color: rgba(5, 4, 4, 0.84);
+
+      text-decoration: none;
+    }
+  }
+}

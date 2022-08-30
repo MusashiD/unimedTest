@@ -1,0 +1,49 @@
+.modal{
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+
+.description{
+background-color: hsla(46, 32%, 92%, 0.951);
+width:100%;
+display: grid;
+grid-template-columns: 70rem 1fr;
+height:80vh;
+padding: 6rem;
+overflow: auto;
+
+grid-template-areas: 'A B';
+gap: 6.7rem;
+
+  .text{
+    text-align: left;
+    grid-area: 'A';
+    align-self: center;
+    .title {
+      font-size: 3.5rem;
+      line-height: 5.2rem;
+      color: black;
+      text-transform: uppercase;
+      padding-bottom: 2rem;
+
+    }
+    .about{
+
+      font-size: 1.8rem;
+      text-align: left;
+
+    }
+
+  }
+  .image1{
+    width: 45rem;
+    border-radius: 2rem;
+    grid-area: B;
+  }
+
+}
+

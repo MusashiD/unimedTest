@@ -1,0 +1,21 @@
+.header-container{
+  width: 100%;
+  height: 12rem;
+  background-color: #00985e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .image{
+    cursor: pointer;
+    width: 25%;
+    height:250%;
+  }
+  .logout {
+    font-size: 1.8rem;
+    color:white;
+    font-weight: bold;
+    margin-right: 4rem;
+    cursor: pointer;
+  }
+}
