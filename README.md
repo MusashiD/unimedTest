@@ -18,7 +18,7 @@ Projeto realizado como teste de entrada na unimed. O projeto é fullStack e cons
 
 Primeiramente clone o repositório para sua maquina ou faça o 'download' em formato ZIP e descompacte. Para realizar a clonagem do repositório utilize o comando:
 
-    git clone git@github.com:PedroHenry-Santos/Letmeask.git
+    git clone git@github.com:MusashiD/unimedTest.git
 
 Para o angular, basta instalar as dependência utilizando o gerenciador de pacote de sua preferência. Conforme abaixo:
 
